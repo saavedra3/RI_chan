@@ -49,7 +49,11 @@ namespace RI_chan.Main
             else if (@params.LGN == 2)
             {
                 fn.SetLanguage(typeof(ES));
-            }  
+            }
+            else if (@params.LGN == 3)
+            {
+                fn.SetLanguage(typeof(HI));
+            }
         }
         private void START()
         {

@@ -31,6 +31,13 @@ namespace RI_chan.Main
             @params.LGN = 2;
             this.Close();
         }
+        private void btn_HI_Click(object sender, EventArgs e)
+        {
+            @params.LGN = 3;
+            this.Close();
+        }
         #endregion
+
+
     }
 }

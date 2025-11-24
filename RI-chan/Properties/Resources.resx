@@ -127,11 +127,17 @@
   <data name="Finishedd" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Finishedd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Imagen8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Imagen8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="archivo-zip1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\archivo-zip1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ri_ERR_NoDevice" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ri_ERR_NoDevice.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ERR_NoDevice" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ERR_NoDevice.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Waiting" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Waiting.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -142,37 +148,34 @@
   <data name="ri2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ri2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Imagen11" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Imagen11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="RI-CAHN" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\RI-CAHN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Imagen9" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Imagen9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ERR_NoDevice" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ERR_NoDevice.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="ri1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ri1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ThankYou" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ThankYou.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="textimg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\textimg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="RI-CAHN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RI-CAHN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Imagen11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Imagen11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ri_ADB_warning" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ri_ADB_warning.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Imagen8" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Imagen8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="textimg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\textimg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Imagen9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Imagen9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ri_process" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ri_process.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Imagen7" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Imagen7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ri_process" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ri_process.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="25231" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\25231.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

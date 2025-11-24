@@ -100,7 +100,12 @@ namespace RI_chan.About
         {
             OpenLink("https://developer.android.com/tools/releases/platform-tools?hl=es-419");
         }
+        private void btn_github_Click(object sender, EventArgs e)
+        {
+            OpenLink("https://github.com/saavedra3");
+        }
         #endregion
+
 
 
 

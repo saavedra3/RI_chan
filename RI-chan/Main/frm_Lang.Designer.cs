@@ -32,6 +32,7 @@
             btn_EN = new Label();
             label1 = new Label();
             cuiFormRounder1 = new CuoreUI.Components.cuiFormRounder();
+            btn_HI = new Label();
             SuspendLayout();
             // 
             // btn_EN
@@ -68,11 +69,26 @@
             cuiFormRounder1.Rounding = 20;
             cuiFormRounder1.TargetForm = this;
             // 
+            // btn_HI
+            // 
+            btn_HI.AutoSize = true;
+            btn_HI.Cursor = Cursors.Hand;
+            btn_HI.Font = new Font("Comic Sans MS", 20F, FontStyle.Bold);
+            btn_HI.ForeColor = Color.MediumPurple;
+            btn_HI.Location = new Point(53, 107);
+            btn_HI.Name = "btn_HI";
+            btn_HI.Size = new Size(53, 38);
+            btn_HI.TabIndex = 11;
+            btn_HI.Text = "HI";
+            btn_HI.TextAlign = ContentAlignment.MiddleRight;
+            btn_HI.Click += btn_HI_Click;
+            // 
             // frm_Lang
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(261, 137);
+            ClientSize = new Size(261, 188);
+            Controls.Add(btn_HI);
             Controls.Add(label1);
             Controls.Add(btn_EN);
             FormBorderStyle = FormBorderStyle.None;
@@ -89,5 +105,6 @@
         private Label btn_EN;
         private Label label1;
         private CuoreUI.Components.cuiFormRounder cuiFormRounder1;
+        private Label btn_HI;
     }
 }

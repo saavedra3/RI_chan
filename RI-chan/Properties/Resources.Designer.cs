@@ -63,6 +63,16 @@ namespace RI_chan.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _25231 {
+            get {
+                object obj = ResourceManager.GetObject("25231", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap archivo_zip1 {
             get {
                 object obj = ResourceManager.GetObject("archivo-zip1", resourceCulture);

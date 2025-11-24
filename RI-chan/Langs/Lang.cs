@@ -110,4 +110,38 @@ namespace RI_chan.Langs
         public static string OCText = "Other Credits:";
         public static string GoToStart = "Go to Start";
     }
+    public static class HI
+    {
+        public static string MainTitle = "Namaste Mitroo";
+        public static string ErrorIncorrectFile = "Are saala! Gaandu zip use krle.";
+        public static string DropperNormalContent = "File yaha DRAG kar";
+        public static string DropperHoverContent = "File Drop Kar";
+        public static string DropperClickToUpload = "Abe Ye Dabao";
+        public static string NotFileSelected = "Abe file kon select krega.";
+        public static string InfoText1 = "Mera naam Ri-chan hai aur main tumko bas rom flash krne me madat krungi... \n\r Select the .zip file";
+        public static string ExitConfirm = "Hume Choor Kar Mat Jao...?";
+        public static string NotPlatformTools = "Maaf kriye,me platform_tools folder nhi dhund payi. Me Aage Nhi Bar Skti...";
+        public static string FastbootError = "Are yaar! Erro hogya fastboot ka aur wo hai : ";
+        public static string NotDumper = "Maaf kriye, me dpg folder nhi dhund payi. Me Aage Nhi Bar Skti...";
+        public static string DumperError = "Nahi! Ek gadbad hogya Payload Dumper Go ke saath. Ye Hua: ";
+        public static string StepTitle1 = "Step 1: Device Read ho raha...";
+        public static string StepTitle2 = "Step 2: Images nikal rahe hain...";
+        public static string StepTitle3 = "Step 3: Boot flash ho raha hain...";
+        public static string StepTitle4 = "Step 4: Dtbo flash ho raha hain...";
+        public static string StepTitle5 = "Step 5: Vendor_Boot flash ho raha hain...";
+        public static string StepTitle6 = "Step 6: Sideload detect ho raha...";
+        public static string StepTitle7 = "Step 7: ROM install ho rahi hai...";
+        public static string StepDone = "Ho gaya.";
+        public static string InfoText2 = "Ri-chan ye cheez tumhare liye kar de rhi hai...";
+        public static string ErrorNoDevice = "Maaf kariye, Apka device detect nhi hoparaha .";
+        public static string Error1 = "Mere ko lgta hai kuch gadbad hua hai , mein aage nahi barh sakti .";
+        public static string ReloadButtonText = "LAGTI";
+        public static string WaitingForSideload = "Me aapke liye sab nhi kar skti.\r\nDevice lgao bharwe\r\nADB Sideload mode\r\n\r\nJab tak nahi karoge main aage nahi jaungi.";
+        public static string ThankYou = "Shabash! Ab hum aage badh sakte hain.";
+        public static string Finished = "Lagta hai process sahi se complete ho gaya. Yaad rakhna, Custom ROM start karne se pehle FORMAT DATA karna recommended hai...";
+        public static string AboutText1 = "Main RI-chan hoon, main tumhe fastboot ke through custom ROM install karne me help karungi.";
+        public static string AboutText2 = "RI-chan Payload-Dumper-Go aur Android Platform Tools use karti hai zip analyze karne ke liye, taki tumhari 'R-oms Installer' ban sake. Bas instructions follow karna aur usko irritate mat karna.";
+        public static string OCText = "Baaki Credits:";
+        public static string GoToStart = "Start Pe Jao";
+    }
 }

@@ -41,9 +41,11 @@
             lb_oc = new Label();
             linkLabel1 = new LinkLabel();
             btn_telegram = new PictureBox();
+            btn_github = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)btn_telegram).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)btn_github).BeginInit();
             SuspendLayout();
             // 
             // btn_Exit
@@ -150,7 +152,7 @@
             label1.AutoSize = true;
             label1.Font = new Font("Comic Sans MS", 10F, FontStyle.Bold);
             label1.ForeColor = Color.MediumPurple;
-            label1.Location = new Point(465, 30);
+            label1.Location = new Point(484, 30);
             label1.Name = "label1";
             label1.Size = new Size(82, 19);
             label1.TabIndex = 11;
@@ -198,7 +200,7 @@
             // 
             btn_telegram.Cursor = Cursors.Hand;
             btn_telegram.Image = Properties.Resources.Telegram_logo_icon_svg;
-            btn_telegram.Location = new Point(427, 26);
+            btn_telegram.Location = new Point(446, 26);
             btn_telegram.Name = "btn_telegram";
             btn_telegram.Size = new Size(37, 27);
             btn_telegram.SizeMode = PictureBoxSizeMode.Zoom;
@@ -206,12 +208,25 @@
             btn_telegram.TabStop = false;
             btn_telegram.Click += btn_telegram_Click;
             // 
+            // btn_github
+            // 
+            btn_github.Cursor = Cursors.Hand;
+            btn_github.Image = Properties.Resources._25231;
+            btn_github.Location = new Point(403, 26);
+            btn_github.Name = "btn_github";
+            btn_github.Size = new Size(37, 27);
+            btn_github.SizeMode = PictureBoxSizeMode.Zoom;
+            btn_github.TabIndex = 16;
+            btn_github.TabStop = false;
+            btn_github.Click += btn_github_Click;
+            // 
             // frm_About
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             ClientSize = new Size(671, 482);
+            Controls.Add(btn_github);
             Controls.Add(linkLabel1);
             Controls.Add(lb_oc);
             Controls.Add(llb_pld);
@@ -232,6 +247,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)btn_telegram).EndInit();
+            ((System.ComponentModel.ISupportInitialize)btn_github).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -249,5 +265,6 @@
         private LinkLabel linkLabel1;
         private Label lb_oc;
         private PictureBox btn_telegram;
+        private PictureBox btn_github;
     }
 }
