@@ -76,7 +76,7 @@ namespace RI_chan.Langs
         public static string OCText = "Otros Creditos:";
         public static string GoToStart = "Volver al inicio";
     }
-    public static class en_EN
+    public static class en_US
     {
         public static string MainTitle = "Main Screen";
         public static string ErrorIncorrectFile = "Sorry onii-chan, I cannot accept files that are not of type zip.";
@@ -110,7 +110,7 @@ namespace RI_chan.Langs
         public static string OCText = "Other Credits:";
         public static string GoToStart = "Go to Start";
     }
-    public static class hi_HI
+    public static class hi_IN
     {
         public static string MainTitle = "Namaste Mitroo";
         public static string ErrorIncorrectFile = "Are saala! Gaandu zip use krle.";

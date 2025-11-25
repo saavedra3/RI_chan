@@ -45,7 +45,7 @@
             btn_EN.Name = "btn_EN";
             btn_EN.Size = new Size(107, 38);
             btn_EN.TabIndex = 9;
-            btn_EN.Text = "en-EN";
+            btn_EN.Text = "en-US";
             btn_EN.TextAlign = ContentAlignment.MiddleRight;
             btn_EN.Click += btn_EN_Click;
             // 
@@ -77,7 +77,7 @@
             btn_HI.Name = "btn_HI";
             btn_HI.Size = new Size(107, 38);
             btn_HI.TabIndex = 11;
-            btn_HI.Text = "hi-HI";
+            btn_HI.Text = "hi-IN";
             btn_HI.TextAlign = ContentAlignment.MiddleRight;
             btn_HI.Click += btn_HI_Click;
             // 

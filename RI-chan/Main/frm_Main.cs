@@ -44,7 +44,7 @@ namespace RI_chan.Main
         {
             if (@params.LGN == 1)
             {
-                fn.SetLanguage(typeof(en_EN));
+                fn.SetLanguage(typeof(en_US));
             }
             else if (@params.LGN == 2)
             {
@@ -52,7 +52,7 @@ namespace RI_chan.Main
             }
             else if (@params.LGN == 3)
             {
-                fn.SetLanguage(typeof(hi_HI));
+                fn.SetLanguage(typeof(hi_IN));
             }
             else if (@params.LGN == 4)
             {
