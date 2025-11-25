@@ -17,27 +17,45 @@ namespace RI_chan.Main
             InitializeComponent();
         }
 
+        #region FUN
+        private void StartMain()
+        {
+            frm_Main frm = new frm_Main();
+            this.Hide();
+            frm.Show();
+        }
+        #endregion
+
+
+
+
+
+
 
 
         #region UI
         private void btn_EN_Click(object sender, EventArgs e)
         {
             @params.LGN = 1;
-            this.Close();
+            StartMain();
         }
 
         private void label1_Click(object sender, EventArgs e)
         {
             @params.LGN = 2;
-            this.Close();
+            StartMain();
         }
         private void btn_HI_Click(object sender, EventArgs e)
         {
             @params.LGN = 3;
-            this.Close();
+            StartMain();
         }
         #endregion
 
-
+        private void btn_PT1_Click(object sender, EventArgs e)
+        {
+            @params.LGN = 4;
+            StartMain();
+        }
     }
 }

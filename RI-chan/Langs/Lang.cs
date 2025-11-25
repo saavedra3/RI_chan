@@ -42,7 +42,7 @@ namespace RI_chan.Langs
         public static string GoToStart { get; set; }
     }
 
-    public static class ES
+    public static class es_ES
     {
         public static string MainTitle = "Pantalla Principal";
         public static string ErrorIncorrectFile = "Perdon onii-chan, no puedo recibir archivos que no sean de tipo zip.";
@@ -76,7 +76,7 @@ namespace RI_chan.Langs
         public static string OCText = "Otros Creditos:";
         public static string GoToStart = "Volver al inicio";
     }
-    public static class EN
+    public static class en_EN
     {
         public static string MainTitle = "Main Screen";
         public static string ErrorIncorrectFile = "Sorry onii-chan, I cannot accept files that are not of type zip.";
@@ -110,7 +110,7 @@ namespace RI_chan.Langs
         public static string OCText = "Other Credits:";
         public static string GoToStart = "Go to Start";
     }
-    public static class HI
+    public static class hi_HI
     {
         public static string MainTitle = "Namaste Mitroo";
         public static string ErrorIncorrectFile = "Are saala! Gaandu zip use krle.";
@@ -144,4 +144,38 @@ namespace RI_chan.Langs
         public static string OCText = "Baaki Credits:";
         public static string GoToStart = "Start Pe Jao";
     }
+    public static class pt_BR
+    {
+        public static string MainTitle = "Tela principal";
+    public static string ErrorIncorrectFile = "Perdão onii-chan, não posso receber arquivos que não sejam do tipo zip.";
+    public static string DropperNormalContent = "Arraste o arquivo para cá.";
+    public static string DropperHoverContent = "Soltar o arquivo";
+    public static string DropperClickToUpload = "Clique para buscar UwU";
+    public static string NotFileSelected = "Você não selecionou nenhum arquivo.";
+    public static string InfoText1 = "Ri-chan vai te ajudar a instalar uma custom rom... \n\r Selecione o arquivo .zip";
+    public static string ExitConfirm = "Tem certeza de que quer sair?...";
+    public static string NotPlatformTools = "Desculpe, não consegui encontrar a pasta platform_tools no seu site. Não posso continuar...";
+    public static string FastbootError = "Oh não! Ocorreu um erro com o fastboot e é o seguinte: ";
+    public static string NotDumper = "Desculpe, não consegui encontrar a pasta dpg no seu site. Não posso continuar...";
+    public static string DumperError = "NÃO! Temos um problema com o Payload Dumper Go. O que aconteceu:  ";
+    public static string StepTitle1 = "Passo 1: Detectando dispositivo...";
+    public static string StepTitle2 = "Passo 2: Obtendo Imgs...";
+    public static string StepTitle3 = "Passo 3: Flashando Boot.img...";
+    public static string StepTitle4 = "Passo 4: Flashando Dtbo.img...";
+    public static string StepTitle5 = "Passo 5: Flashando Vendor_Boot.img...";
+    public static string StepTitle6 = "Passo 6: Detectando Sideload...";
+    public static string StepTitle7 = "Passo 7: Instalando a ROM...";
+    public static string StepDone = "Pronto.";
+    public static string InfoText2 = "Ri-chan tentará fazer essa parte para você...";
+    public static string ErrorNoDevice = "Desculpe, não consegui detectar seu dispositivo.";
+    public static string Error1 = "Parece que houve um problema e não poderei continuar :(";
+    public static string ReloadButtonText = "Recomeçando";
+    public static string WaitingForSideload = "Não posso fazer tudo por você.\r\nVocê deve colocar o dispositivo no modo\r\nADB Sideload\r\n\r\nE eu não vou continuar até que você faça isso.";
+    public static string ThankYou = "Muito bem! Muito obrigado... Agora podemos continuar.";
+    public static string Finished = "Parece que o processo ocorreu muito bem. Lembre-se que é recomendável formatar os dados antes de iniciar a sua ROM personalizada...";
+    public static string AboutText1 = "Eu sou RI-chan, vou te ajudar a instalar uma ROM personalizada via fastboot.";
+    public static string AboutText2 = "RI-chan usa o Payload-Dumper-Go e o Android Platform Tools para analisar um arquivo zip e funcionar como um instalador de ROM. Siga as instruções dela e lembre-se de ser gentil com ela..";
+    public static string OCText = "Outros Créditos:";
+    public static string GoToStart = "Voltar pro início";
+}
 }

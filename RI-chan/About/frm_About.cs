@@ -4,7 +4,9 @@ using System.ComponentModel;
 using System.Data;
 using System.Diagnostics;
 using System.Drawing;
+using System.IO.Packaging;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -69,6 +71,7 @@ namespace RI_chan.About
         #region FRM
         private async void frm_About_Load(object sender, EventArgs e)
         {
+            tx_version.Text = ($"V {Assembly.GetExecutingAssembly().GetName().Version.ToString()}");
             lb_at1.Text = Lang.AboutText1;
             lb_at2.Text = Lang.AboutText2;
             lb_oc.Text = Lang.OCText;

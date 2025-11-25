@@ -106,7 +106,7 @@
             // pictureBox2
             // 
             pictureBox2.Image = Properties.Resources.ri_chan_titulo;
-            pictureBox2.Location = new Point(438, 442);
+            pictureBox2.Location = new Point(420, 442);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(178, 43);
             pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
@@ -118,12 +118,12 @@
             tx_version.AutoSize = true;
             tx_version.Font = new Font("Comic Sans MS", 14F);
             tx_version.ForeColor = Color.MediumPurple;
-            tx_version.Location = new Point(572, 448);
+            tx_version.Location = new Point(557, 450);
             tx_version.Name = "tx_version";
-            tx_version.Size = new Size(72, 26);
+            tx_version.Size = new Size(56, 26);
             tx_version.TabIndex = 8;
-            tx_version.Text = "V - 0.2";
-            tx_version.TextAlign = ContentAlignment.MiddleRight;
+            tx_version.Text = "V - 0";
+            tx_version.TextAlign = ContentAlignment.MiddleLeft;
             // 
             // lb_at1
             // 

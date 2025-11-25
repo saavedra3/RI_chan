@@ -187,6 +187,14 @@
             Steps.StepSubtitles.Add("Details for step 2");
             Steps.StepSubtitles.Add("Details for step 3");
             Steps.StepSubtitles.Add("Details for step 4");
+            Steps.StepSubtitles.Add("Details for step 1");
+            Steps.StepSubtitles.Add("Details for step 2");
+            Steps.StepSubtitles.Add("Details for step 3");
+            Steps.StepSubtitles.Add("Details for step 4");
+            Steps.StepTitles.Add("Step 1 Title");
+            Steps.StepTitles.Add("Step 2 Title");
+            Steps.StepTitles.Add("Step 3 Title");
+            Steps.StepTitles.Add("Step 4 Title");
             Steps.StepTitles.Add("Step 1 Title");
             Steps.StepTitles.Add("Step 2 Title");
             Steps.StepTitles.Add("Step 3 Title");
@@ -477,7 +485,7 @@
             cuiSpinner1.Name = "cuiSpinner1";
             cuiSpinner1.RingColor = Color.FromArgb(64, 128, 128, 128);
             cuiSpinner1.RotateSpeed = 5F;
-            cuiSpinner1.Rotation = 112.13047F;
+            cuiSpinner1.Rotation = 205.32399F;
             cuiSpinner1.Size = new Size(66, 67);
             cuiSpinner1.TabIndex = 8;
             cuiSpinner1.Text = "cuiSpinner1";
@@ -573,10 +581,10 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             ClientSize = new Size(671, 645);
+            Controls.Add(panel1);
             Controls.Add(pnl_finish);
             Controls.Add(pnl_waitSideload);
             Controls.Add(pnl_error);
-            Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.None;
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "frm_Process";

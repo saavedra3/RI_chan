@@ -44,26 +44,24 @@ namespace RI_chan.Main
         {
             if (@params.LGN == 1)
             {
-                fn.SetLanguage(typeof(EN));
+                fn.SetLanguage(typeof(en_EN));
             }
             else if (@params.LGN == 2)
             {
-                fn.SetLanguage(typeof(ES));
+                fn.SetLanguage(typeof(es_ES));
             }
             else if (@params.LGN == 3)
             {
-                fn.SetLanguage(typeof(HI));
+                fn.SetLanguage(typeof(hi_HI));
+            }
+            else if (@params.LGN == 4)
+            {
+                fn.SetLanguage(typeof(pt_BR));
             }
         }
         private void START()
         {
-            this.WindowState = FormWindowState.Minimized;
-            this.Hide();
-            frm_Lang frm = new frm_Lang();
-            frm.ShowDialog();
             LANG();
-            this.Show();
-            this.WindowState = FormWindowState.Normal;
             pnl_load.Visible = false;
             this.Text = Lang.MainTitle;
             dropper.UploadContent = Lang.DropperClickToUpload;
@@ -130,16 +128,13 @@ namespace RI_chan.Main
         {
             if (MessageBox.Show(Lang.ExitConfirm, "RI-chan", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
             {
-                this.Close();
+                Application.Exit();
             }
         }
-        #endregion
-
-
         private async void dropper_FileDropped(object sender, CuoreUI.Controls.FileDroppedEventArgs e)
         {
             pnl_load.Visible = true;
-            await Task.Delay(2000);
+            await Task.Delay(1000);
             var URLFile = fn.GetROMFile(dropper);
             if (fn.VerifyPayload(URLFile))
             {
@@ -159,5 +154,9 @@ namespace RI_chan.Main
             frm.ShowDialog();
             this.Show();
         }
+        #endregion
+
+
+
     }
 }
